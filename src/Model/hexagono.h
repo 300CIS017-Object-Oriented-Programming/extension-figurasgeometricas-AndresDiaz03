@@ -20,6 +20,8 @@ class Hexagono : public FiguraGeometrica {
         void dibujarFigura() override;
         float calcularArea() override;
         float calcularPerimetro() override;
+        float calcularApotema() override;
+
 };
 
 #endif //EJERCICIO_POLIMORFISMO_HEXAGONO_H
